@@ -8,8 +8,7 @@ import random
 # --------------------------------------------------
 
 st.set_page_config(page_title="AI Academic Planner", layout="wide")
-
-API_KEY = "AIzaSyCS435aeuUPKXH8C678VRVgAtJf1DsE2Y8"   # ← Replace this
+  
 genai.configure(api_key=API_KEY)
 
 # Latest working Gemini models
@@ -326,4 +325,5 @@ elif page == "Dashboard":
     page_dashboard()
 
 elif page == "Semester View":
+
     page_semester()
